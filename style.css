@@ -9,7 +9,7 @@ body {
     font-size: 1.8rem;
   }
   div{
-    padding: 50px 40px 40px 40px;
+      padding: 50px 40px 40px 40px;
       background-color: rgb(233, 219, 219);
       border: 1px solid black;
       border-radius: 20px 0px;
@@ -20,20 +20,12 @@ body {
         margin-bottom: 1rem;
 
     }
-
-  p {
-    color: rgb(24, 37, 218);
-    font-size: 1.4rem;
-   
+  #btn_cadastrar{
+    background-color:blueviolet;
+    box-shadow: 1px 1px ;
+  }
+  #btn_cadastrar:focus{
+           background-color: cadetblue;
   }
 
- a{
-    border: 2px solid black;
-    padding: 10px;
-    text-decoration: none;
-    border-radius: 5px;
-    background-color: rgb(109, 95, 160);
-  }
-  a:focus{
-    background-color: cadetblue;
-  }
+  
