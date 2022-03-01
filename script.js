@@ -13,7 +13,7 @@ function carregar(){}
       nome +
       " obrigado por cadatrar seu email: " +
       email +
-      " - Abraços!";
+      " - ...!";
 
     // console.log(mensagem);
     alert(mensagem);
